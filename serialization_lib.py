@@ -60,7 +60,7 @@ def enable_unsafe_deserialization():
 
 
 def in_safe_mode():
-    return global_state.get_global_attribute("safe_mode_saving")
+    return False
 
 
 class ObjectSharingScope:
